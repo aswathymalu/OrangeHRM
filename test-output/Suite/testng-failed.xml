@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.OrangeHrm.qa.Teastcase.AssignLeavePageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="assignFunction" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- com.OrangeHrm.qa.Teastcase.AssignLeavePageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

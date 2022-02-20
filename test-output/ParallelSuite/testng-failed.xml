@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParallelSuite]" parallel="tests">
+  <test thread-count="5" name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.OrangeHrm.qa.Teastcase.LoginPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.OrangeHrm.qa.Teastcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->
